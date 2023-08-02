@@ -13,16 +13,15 @@ int main()
     {
         for (j = 0; i < len1; j++)
         {
-            if(substr[i]==str[j])
+            if (substr[i] == str[j])
             {
                 // arr[j];
-                
             }
-        } 
+        }
     }
-    for(int i = 0; i<len2; i++)
+    for (int i = 0; i < len2; i++)
     {
-        if(arr[i+1]==(arr[i]+1))
+        if (arr[i + 1] == (arr[i] + 1))
         {
             printf("Present");
         }

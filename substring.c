@@ -10,16 +10,14 @@ int main()
     gets(substr);
     int len1 = strlen(str);
     int len2 = strlen(substr);
-    while()
+    while ()
     {
         /* code */
     }
-    
 
-
-    for(int i = 0; i<len2; i++)
+    for (int i = 0; i < len2; i++)
     {
-        if(arr[i+1]==(arr[i]+1))
+        if (arr[i + 1] == (arr[i] + 1))
         {
             printf("Present");
         }

@@ -16,6 +16,6 @@ int main()
     circular(&x, &y, &z);
 
     printf("Values after right circular %d %d %d", x, y, z);
-    
+
     return 0;
 }

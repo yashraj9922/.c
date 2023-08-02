@@ -8,14 +8,14 @@ int main()
     gets(str);
     str[0] = toupper(str[0]);
     // printf("%s", str);
-    for(int i = 0; i<strlen(str); i++)
+    for (int i = 0; i < strlen(str); i++)
     {
-        if(str[i] == ' ')
+        if (str[i] == ' ')
         // if(str[i] == " ")
         {
             // if(str[i+1]>=97 && str[i+1]<=122)
             // {
-            str[i+1] = toupper(str[i+1]);
+            str[i + 1] = toupper(str[i + 1]);
             // }
         }
     }

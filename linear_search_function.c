@@ -30,7 +30,7 @@ int main()
     {
         if (arr[a] == find)
         {
-            printf("index of %d is %d\n", find, (a+1));
+            printf("index of %d is %d\n", find, (a + 1));
             counter++;
         }
     }

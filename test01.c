@@ -8,13 +8,13 @@ int main()
     char *q;
     q = s;
     r = w;
-    printf("%s", q); 
+    printf("%s", q);
     printf("%s", r);
     // return 0;
-// }
-// #include <stdio.h>
-// int main()
-// {
+    // }
+    // #include <stdio.h>
+    // int main()
+    // {
     char ch[1];
     gets(ch);
     char chr[22];

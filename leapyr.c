@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int year; 
+    int year;
     printf("Enter the year to be check ");
     scanf("%d", &year);
-    if(year%400==0)
+    if (year % 400 == 0)
     {
         printf("The year is leap");
     }

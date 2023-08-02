@@ -7,7 +7,7 @@ int main()
     // ptr = fopen("sample1.txt", "w");
     // ptr = fopen("sample1.txt", "a");
     // printf(ptr);
-    fscanf(ptr ,"%s", str);
+    fscanf(ptr, "%s", str);
     printf("The value is --> %s", str);
     return 0;
 }

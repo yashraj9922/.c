@@ -1,20 +1,20 @@
 #include <stdio.h>
 int power(int a, int b)
 {
-    if(a == 0)
+    if (a == 0)
     {
         printf("Value of Base cannot be 0");
         return 0;
     }
 
-    else if(b == 0)
+    else if (b == 0)
     {
         a = 1;
     }
 
     else
     {
-        for(int i = 1; i<b; i++)
+        for (int i = 1; i < b; i++)
         {
             a = a * a;
         }
@@ -37,5 +37,4 @@ int main()
     power(num, pow);
     // return num;
     return 0;
-
 }

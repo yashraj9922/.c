@@ -10,7 +10,7 @@ int main()
         scanf("%d", ptr);
         ptr++;
     }
-    for(int j = 0; j<4; j++)
+    for (int j = 0; j < 4; j++)
     {
         printf("%d ", marks[j]);
     }

@@ -3,10 +3,11 @@
 
 int avg_std(int *a, int *b, int *c, int *d, int *e)
 {
-    float average = (float)(*a + *b + *c + *d + *e)/5;
-    float stdev = sqrt(((average - *a)*(average - *a) + (average - *b)*(average - *b) +
-                        (average - *c)*(average - *c) + (average - *d)*(average - *d) + 
-                        (average - *e)*(average - *e))/5);
+    float average = (float)(*a + *b + *c + *d + *e) / 5;
+    float stdev = sqrt(((average - *a) * (average - *a) + (average - *b) * (average - *b) +
+                        (average - *c) * (average - *c) + (average - *d) * (average - *d) +
+                        (average - *e) * (average - *e)) /
+                       5);
     printf("Average of numbers is %.2f\n", average);
     printf("Standard Deviation of numbers is %.2f", stdev);
     return 0;

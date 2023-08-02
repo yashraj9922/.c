@@ -2,7 +2,7 @@
 
 int leap(int yr)
 {
-    if(yr % 400 == 0 || (yr % 4 == 0 && yr % 100 != 0))
+    if (yr % 400 == 0 || (yr % 4 == 0 && yr % 100 != 0))
     {
         printf("Leap Year");
     }
